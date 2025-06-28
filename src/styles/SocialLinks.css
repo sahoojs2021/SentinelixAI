@@ -1,0 +1,16 @@
+.social-links {
+  display: flex;
+  gap: 16px; /* adds spacing between icons */
+  align-items: center;
+}
+
+.social-links a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #0077b5; /* You can change this per icon if desired */
+}
